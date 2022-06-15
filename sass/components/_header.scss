@@ -1,0 +1,25 @@
+.header__container {
+    display: flex;
+    height: 67px;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu-nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+.logo {
+    font-family: $font-family;
+    background: linear-gradient(106.99deg, #E0DEDE 24.92%, #A2A0A0 53.57%);;
+
+}
+
+.menu-nav__link {
+    font-family: $font-family;
+    color: $secondary-title-color;
+}
+
+.header__contact-tel {
+    font-family: $font-family;
+    color: $secondary-title-color;
+}

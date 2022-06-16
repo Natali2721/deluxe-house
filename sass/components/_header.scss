@@ -12,8 +12,22 @@
     
     background-color: #A2A0A0;
     background-image: linear-gradient(106.99deg, #E0DEDE 24.92%, #A2A0A0 53.57%);
-    background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+
+}
+
+.logo::after {
+    content: " ";
+    position: absolute;
+    background-image: url(../../images/logo/logo.png);
+    width: 146px;
+    left: 5px;
+    height: 146px;
+    top: 25px;
+    z-index: 1;
 
 }
 .header__logo {
@@ -57,6 +71,7 @@
     font-family: $font-family;
     background-color: #A2A0A0;
     background-image: linear-gradient(106.99deg, #E0DEDE 24.92%, #A2A0A0 53.57%);
+    -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-left: auto;

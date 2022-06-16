@@ -1,23 +1,27 @@
 .header__container {
     display: flex;
-   
-    align-items: center;
-    
+   align-items: center; 
 }
+
 .logo {
     font-family: $font-family;
-    background: linear-gradient(106.99deg, #E0DEDE 24.92%, #A2A0A0 53.57%);;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    
+    background-color: #A2A0A0;
+    background-image: linear-gradient(106.99deg, #E0DEDE 24.92%, #A2A0A0 53.57%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 
 }
 .header__logo {
     width: 184px;
     margin-right: 65px;
     margin-left: 65px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 23px;
+    
+    
     padding: 13px 0;
 }
 .menu-nav {
@@ -51,7 +55,10 @@
 }
 .header__contact-tel {
     font-family: $font-family;
-    color: $secondary-title-color;
+    background-color: #A2A0A0;
+    background-image: linear-gradient(106.99deg, #E0DEDE 24.92%, #A2A0A0 53.57%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
     margin-left: auto;
     font-family: 'Roboto';
     font-style: normal;

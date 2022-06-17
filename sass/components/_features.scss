@@ -1,0 +1,50 @@
+.features__list {
+    display: flex;
+}
+
+.features__item {
+    padding: 213px 20px 40px;
+    border-radius: 20px;
+    background-color: #191919;
+    flex-basis: calc((100% - 90px) / 4) ;
+    text-align: center;
+    
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 37px;
+    &--money {
+        background-image: url(../../images/features/features1.png);
+    }
+    &--man {
+        background-image: url(../../images/features/features2.png);
+    }
+    &--sofa {
+        background-image: url(../../images/features/features3.png);
+    }
+    &--stars {
+        background-image: url(../../images/features/features4.png);
+    }
+}
+
+.features__item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.features__title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.56;
+    text-align: center;
+    text-transform: uppercase; 
+    color: #FBFBFB;
+    margin-bottom: 20px;
+}
+
+.features__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    text-align: center;
+    color: #CDCDCB;
+
+}

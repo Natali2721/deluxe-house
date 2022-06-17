@@ -1,9 +1,27 @@
 .section {
-    padding-top: 185px;
-    padding-bottom: 185px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 
 }
 
+.section__title--hidden {
+    @extend .visualy-hidden;
+}
+
+.section__light-bgc {
+    background-color: $light-bgc;
+
+}
+
+.section__title {
+    font-family: 'Garamond';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.13;
+    color: #E1DECE;
+    text-align: center;
+    margin-bottom: 30px;
+}
 
 /*.section {
     padding-top: 60px;
@@ -37,8 +55,4 @@
         line-height: 1.16;
         margin-bottom: 50px;
     }
-}
-
-.section__title--hidden {
-    @extend .visualy-hidden;
 }*/

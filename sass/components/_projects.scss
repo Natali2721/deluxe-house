@@ -1,0 +1,30 @@
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+}
+
+.portfolio-list__item {
+    flex-basis: calc((100% - 60px) / 3);
+    margin: 15px;
+}
+
+.portfolio-list__title {
+font-family: 'Garamond';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.13;
+color: #FFFFFF;
+text-align: center;
+margin-bottom: 7px;
+}
+.portfolio-list__text {
+font-family: 'Garamond';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.13;
+color: #FFFFFF;
+text-align: center;
+}
